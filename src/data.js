@@ -188,7 +188,7 @@ const pages = [
     emoji: '😄',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'iphone',
+    phone: 'apple',
     tags: [
       'JavaScript',
       'React',
@@ -265,6 +265,26 @@ const pages = [
       'Blogger',
       'JavaScript',
       'Python',
+    ],
+  },
+  {
+    name: 'Dave Kiss',
+    description: 'I make video software for the internet.',
+    url: 'https://www.davekiss.com/uses/',
+    twitter: '@davekiss',
+    emoji: '🚲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Entrepreneur',
+      'Developer',
+      'Adventurer',
+      'Mentor',
+      'JavaScript',
+      'React',
+      'Node',
+      'Vue'
     ],
   },
   {
@@ -388,7 +408,7 @@ const pages = [
     tags: ['JavaScript', 'Developer', 'Event Organizer', 'Teacher', 'Vue'],
   },
   {
-    name: "David O'Trakoun",
+    name: 'David O\'Trakoun',
     description: 'Software Engineer',
     url: 'https://www.davidosomething.com/uses/',
     twitter: '@davidosomething',
@@ -396,19 +416,25 @@ const pages = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer'],
+    tags: [ 'Developer' ],
   },
   {
     name: 'Dean Harris',
-    description:
-      'Front End Developer. Husband. Skateboarder. Occasional blogger',
+    description: 'Front End Developer. Husband. Skateboarder. Occasional blogger',
     url: 'https://deanacus.com/uses/',
     twitter: '@deanacus',
     emoji: '🛹',
     country: '🇦🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP'],
+    tags: [
+      'Developer',
+      'Font End',
+      'JavaScript',
+      'React',
+      'Node',
+      'PHP',
+    ],
   },
   {
     name: 'Michael Hoffmann',
@@ -419,7 +445,7 @@ const pages = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Angular'],
+    tags: [ 'Developer', 'Blogger', 'Angular' ],
   },
   {
     name: 'Michael Le',
@@ -439,7 +465,7 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'Vue',
+      'Vue'
     ],
   },
   {
@@ -462,32 +488,9 @@ const pages = [
       'Node',
       'CSS',
       'Sass',
-      'Design Systems',
+      'Design Systems'
     ],
-  },
-  {
-    name: 'Kilian Valkhof',
-    description: 'User experience developer',
-    url: 'https://kilianvalkhof.com/using/',
-    twitter: '@kilianvalkhof',
-    emoji: '🐧',
-    country: '🇳🇱',
-    computer: 'linux',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Designer',
-      'Full stack',
-      'Front-end',
-      'Entrepreneur',
-      'JavaScript',
-      'React',
-      'Node',
-      'Electron',
-      'Polypane',
-      'Devtools',
-    ],
-  },
+  }
 ];
 
 export default pages;
